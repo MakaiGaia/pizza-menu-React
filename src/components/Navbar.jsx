@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
-//import sytle from './styles/navbar-style.module.css'
+import style from './styles/navbar-style.module.css'
 export default function Navbar(){
     return(
         <nav>
             <ul>
                 <li>
-                    <link to="/">Home</link>
+                    <Link className={style["link-styles"]} to="/">Home</Link>
                 </li>
                 <li>
-                    <link to="/Owner">Owner</link>
+                    <Link className={style["link-styles"]} to="/Owner">Owner</Link>
                 </li>
             </ul>
         </nav>
