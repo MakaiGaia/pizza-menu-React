@@ -1,0 +1,40 @@
+.owner{
+    display: flex;
+    gap: 3.2rem;
+}
+
+.owner img{
+    width: 30rem;
+}
+
+.owner div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 0.4rem 0;
+}
+
+.owner h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.owner p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: auto;
+}
+
+.owner span {
+  display: block;
+  font-size: 1.6rem;
+}
+
+
+button{
+  border:none;
+  background-color: transparent;
+  text-align: start;
+  cursor: pointer;
+}

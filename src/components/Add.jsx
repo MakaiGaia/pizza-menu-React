@@ -34,10 +34,10 @@ export default function Card() {
                 alt="Sample" 
                 style={imageStyle}
             />
-            <p>Granjas El Pollón</p>
+            <p>Sample Text</p>
             <div>
-                <a href="https://www.linkedin.com/in/ellenjhernandezt" style={linkStyle}>LinkedIn</a>
-                <a href="https://github.com/Jarelen" style={linkStyle}>Github</a>
+                <a href="https://www.linkedin.com/in/alfonso-esau-gutierrez" style={linkStyle}>LinkedIn</a>
+                <a href="https://github.com/MakaiGaia" style={linkStyle}>Github</a>
             </div>
         </div>
     );
